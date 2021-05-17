@@ -1,0 +1,54 @@
+@import "./variables";
+
+h1 {
+  color: $red;
+  font-family: $font-santander;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  @media (min-width: 425px) {
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 600;
+  }
+}
+p {
+  font-family: $font-santander;
+  color: $dark_gray;
+  font-size: 1rem;
+}
+label {
+  color: $dark_gray;
+  font-family: $font-santander;
+  font-size: 14px;
+  text-align: left;
+
+  font-weight: 500;
+  @media (min-width: 425px) {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.link {
+  color: $red;
+}
+.icon-login {
+  font-size: 1rem;
+}
+.register-button {
+  background-color: $light_gray !important;
+  color: #fff !important;
+  font-family: $font-santander;
+  border-radius: 20px !important;
+  &:hover {
+    background-color: $red !important;
+  }
+  @media (min-width: 425px) {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.errorMsg {
+  color: red;
+}

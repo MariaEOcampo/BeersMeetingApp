@@ -1,0 +1,55 @@
+@import "./variables";
+h1 {
+  color: $red;
+  font-family: $font-santander;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  @media (min-width: 425px) {
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 600;
+  }
+}
+.icon-event {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  margin-right: 0.2rem;
+  @media (min-width: 425px) {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+}
+.btn-asist {
+  background-color: $light_red !important;
+  color: #fff !important;
+  font-family: $font-santander !important;
+  &:hover {
+    background-color: $light_gray !important;
+  }
+  &:disabled {
+    background-color: $dark_gray !important;
+  }
+}
+.btn-logout {
+  font-family: $font-santander !important;
+  font-size: 0.8rem !important;
+}
+.log-msg {
+  font-family: $font-santander;
+  font-weight: 600;
+  color: #fff;
+  &:hover {
+    color: #ffff;
+  }
+}
+.log-msg-container {
+  background-color: $red;
+  text-align: center;
+  height: 5vh;
+}
+.people-img {
+  height: 30vh;
+  width: auto;
+}

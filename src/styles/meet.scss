@@ -1,0 +1,51 @@
+@import "./variables";
+
+p,
+.text-aux {
+  font-size: 1rem;
+  font-family: $font-santander;
+  color: $dark_gray;
+}
+span {
+  font-size: 1rem;
+  font-family: $font-santander;
+  color: $dark_gray;
+  font-weight: 600;
+}
+.btn-climate {
+  font-family: $font-santander !important;
+  width: 75vw;
+  @media (min-width: 425px) {
+    width: 80vw;
+  }
+}
+.card-body {
+  padding: 10px;
+  max-height: 70vh !important;
+}
+.temperature {
+  color: $dark_gray;
+  font-family: $font-santander;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.text-aux {
+  font-size: 0.9rem;
+  font-family: $font-santander;
+  color: $dark_gray;
+  text-align: center;
+  font-weight: 600;
+}
+.icon-beer,
+.delete-icon {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+.btn-delete {
+  background-color: $light_red !important;
+  color: #fff !important;
+  font-family: $font-santander !important;
+  &:hover {
+    background-color: $light_gray !important;
+  }
+}

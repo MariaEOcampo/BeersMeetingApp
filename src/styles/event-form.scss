@@ -1,0 +1,21 @@
+@import "./variables";
+#Event {
+  .special-input {
+    visibility: hidden;
+  }
+  .card-body {
+    max-height: 70vh !important;
+  }
+  .btn-create {
+    background-color: $light_red !important;
+    color: #fff !important;
+    font-family: $font-santander !important;
+    &:hover {
+      background-color: $light_gray !important;
+    }
+  }
+  .people-img {
+    height: 22vh;
+    width: auto;
+  }
+}
